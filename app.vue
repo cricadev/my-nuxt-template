@@ -1,3 +1,3 @@
 <template>
-  <HelloWorld />
+  <ToggleTheme/>
 </template>
