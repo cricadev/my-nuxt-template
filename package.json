@@ -12,8 +12,10 @@
     "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.52",
     "@nuxt/devtools": "^0.4.6",
     "@nuxt/eslint-config": "^0.1.1",
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "eslint": "^8.28.0",

@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     modules: [
-    '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/devtools',
+     '@nuxt/devtools', '@nuxthq/ui'
 
   ],
   colorMode: {
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode'
   },
     // Defaults options
-    tailwindcss: {
+  tailwindcss: {
       cssPath: '~/assets/css/tailwind.css',
       configPath: 'tailwind.config',
       exposeConfig: false,
@@ -23,6 +23,8 @@ export default defineNuxtConfig({
       injectPosition: 'first',
       viewer: true,
     },
+
+    ui:{ icons: ['mdi'],}
 
 
 })
